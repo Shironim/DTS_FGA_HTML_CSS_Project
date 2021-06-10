@@ -1,24 +1,107 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeA30</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <img class="logo" src="Logo.png">
+    <div class="container"></div>
+    <header id="header" class="header">
+      <div class="container display-flex">
+        <div class="header-left content-self-center">
+          <img class="logo" src="gambar/Logo.png" />
         </div>
-        <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
-          <a href="#">Menu 1</a>
-          <a href="#">Menu 2</a>
-          <a href="#">Menu 3</a>
+          <a href="#">
+            <span class="active">Home</span>
+          </a>
+          <a href="#">
+            <span>About</span>
+          </a>
+          <a href="#">
+            <span>Contact</span>
+          </a>
         </div>
       </div>
     </header>
+    <main>
+      <div id="main" class="top-wrapper">
+        <div class="descript">
+          <a href="#">
+            <h1>2,000,000 Users</h1>
+          </a>
+          <a href="#">
+            <h1>Active in 100+ Countries</h1>
+          </a>
+        </div>
+        <div class="container">
+          <div class="btn-wrapper">
+            <a href="#" class="btn started">Get Started</a>
+          </div>
+        </div>
+      </div>
+      <div class="contents-wrapper">
+        <div class="container">
+          <div class="heading">
+            <h1>Ayo Belajar Coding Bersama, Menjadi Seorang Kreator</h1>
+            <h2>Majukan Bersama Indrustri Teknologi Indonesia</h2>
+          </div>
+          <div class="contents">
+            <div class="content">
+              <div class="content-icon">
+                <img src="https://i.ibb.co/kX6VGZx/static-website.png" />
+                <p>HTML & CSS</p>
+              </div>
+              <p class="text-content">
+                Languages used to build and design the appearances of your
+                websites.
+              </p>
+            </div>
+            <div class="content">
+              <div class="content-icon">
+                <img src="https://i.ibb.co/02vbrYt/Java-Script.png" />
+                <p>JAVASCRIPT</p>
+              </div>
+              <p class="text-content">
+                Languages used to build and design the appearances of your
+                websites.
+              </p>
+            </div>
+            <div class="content">
+              <div class="content-icon">
+                <img src="https://i.ibb.co/DVK83pn/Design-thinking.png" />
+                <p>PHP</p>
+              </div>
+              <p class="text-content">
+                Languages used to build and design the appearances of your
+                websites.
+              </p>
+            </div>
+          </div>
+          <div class="informasi">
+            <div class="btn">Informasi</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="gambar/logo.png" alt="" class="logo" />
+        </div>
+        <div class="right-col">
+          <h1>Our Newsletter</h1>
+          <div class="border"></div>
+          <p>Enter Your Email to get our news and updates.</p>
+          <form action="" class="newsletter-form">
+            <input type="text" class="txtb" placeholder="Enter Your Email" />
+            <input type="submit" class="btn" value="Submit" />
+          </form>
+        </div>
+      </div>
+      <p class="rights-text">© 2021 Created By Code A30 All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
