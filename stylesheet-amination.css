@@ -1,0 +1,22 @@
+.logo {
+    position: relative;
+    display: inline;
+    width: 80px;
+    height: 80px;
+}
+
+.logo-amination {
+    width: 1170px;
+    padding: 0 15px;
+    position: relative;
+    animation: logo_progate 10s both 3s infinite alternate;
+    }
+
+    @keyframes logo_progate {
+    0%   {left:0px; top:0px;}
+    25%  {left:1000px; top:0px;}
+    50%  {left:1000px; top:500px;}
+    75%  {left:0px; top:500px;}
+    100% {left:0px; top:0px;}
+    }
+    
